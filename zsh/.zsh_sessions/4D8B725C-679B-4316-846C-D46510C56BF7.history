@@ -1,0 +1,756 @@
+ls
+bash
+exit
+hyper i hyperpower
+exit
+ls
+exit
+echo $SHELL
+nano .zsh_rc
+nano .zshrc
+exit
+ls
+/Users/bylands/opt/anaconda3/bin/jupyter_mac.command ; exit;
+echo $ENV
+vi .zshrc
+conda activate python_37
+bash
+source opt/anaconda3/bin/activate
+conda init
+conda activate python-37
+conda activate python_37
+ls
+conda init zsh
+ls
+conda activate python_37
+cd OneDrive/Freizeit/Computer/Developper/Head\ First\ Python/Web\ App
+ls
+pip list
+pip install mariadb
+conda install mariadb
+brew help
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install mariadb
+mysql -u root -p
+mysql
+mysql.server.start
+/tmp/mysql.server.start
+ls /tmp
+ls /tmp/my*
+find / -name mysql*
+man find
+find / -name "mysql*"
+man mysql
+mysql
+mysql.server start
+mysql -u root -p
+mysql
+mysql -u vsearch -p vsearchlogDB
+mysql -p vsearchDB
+mysql
+mysql -u vsearch -p vsearchDB
+mysqladmin -u vsearch password 'speak6028'
+mysql
+mysql -u vsearch
+mysql -u vsearch -p
+mysql -u vsearch -p vsearchDB
+mysql
+mysql -u vsearch -p vsearchlogDB
+python
+ls
+python vsearch4web.py
+pip install flask
+python vsearch4web.py
+from DBcm import UseDatabase
+echo $PYTHONPATH
+ls
+import DBcm
+python
+python vsearch4web.py
+mysql
+python simple_webapp.py
+python vsearch4web.py
+atom vsearch4web.py
+ssh bylandn@byland.name
+compaudit | xargs chmod g-w,o-w
+vi .zshrc
+quit
+exit
+conda activa python_37
+conda activate python_37
+clear
+ls
+ls -a
+ls -al
+conda create --name flaskblog python=3.8
+conda activate flaskblog
+ls
+pip install flask
+pip install flask-sqlalchemy
+pip list
+source .zshrc
+ls
+ls -l
+conda activate python_37
+cd OneDrive/Freizeit/Computer/Developper/Head\ First\ Python/Web\ App
+ls
+python vsearch4web.py
+echo $SHELL
+ls
+ls -l
+ls
+neofetch
+brew iterm2
+brew help
+brew search iterm
+brew search iterm2
+brew cask iterm2
+brew install iterm2
+atom .zshrc
+brew install neofetch
+neofetch
+source .zshrc
+ls
+neofetch
+source .zshrc
+ls
+neofetch
+echo $SHELL
+source .zshrc
+ls
+ls -l
+source .zshrc
+brew install pure
+source .zshrc
+man find
+find . -name "pure.zsh-theme"
+autoload -U promptinit; promptinit
+prompt pure
+ls
+conda activate python_37
+pwd
+ls
+git clone https://github.com/dracula/iterm.git
+source .zshrc
+ls
+neofetch
+ls
+conda activate python_37
+ls
+conda activate python_37
+cd OneDrive/Freizeit/Computer/Developper/Head\ First\ Python/Web\ App
+atom .
+python vsearch4web.py
+mysql shutdown
+mysql.shutdown
+mysql
+help mysql
+man mysql
+mysql.server stop
+python vsearch4web.py
+mysql_shutdown
+mysql
+python vsearch4web.py
+mysql start
+mysql.server start
+python vsearch4web.py
+python vsearch_for_web.py
+ource /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+ls
+cd OneDrive/Freizeit/Computer/Developper/Head\ First\ Python/Web\ App
+ls
+exit
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/test-project/battleship.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/test-project/test.py
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate IYPT
+/Users/bylands/opt/anaconda3/envs/IYPT/bin/python "/Users/bylands/OneDrive/Freizeit/Computer/Developper/Python Projects/Physics/orbits_turtle.py"
+which python
+python
+conda activate IYPT
+python
+conda activate base
+conda help
+conda update
+conda upgrade
+conda help
+conda info
+conda update python
+conda list python
+which python
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+/Users/bylands/opt/anaconda3/bin/python "/Users/bylands/OneDrive/Freizeit/Computer/Developper/Python Projects/Physics/print_version.py"
+code
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+/Users/bylands/opt/anaconda3/bin/python "/Users/bylands/OneDrive/Freizeit/Computer/Developper/Python Projects/Physics/print_version.py"
+conda help
+conda env
+conda info --envs
+conda env list
+conda create -n playground python=3.8
+conda activate playground
+cd
+cd OneDrive/Freizeit/Computer/Developper
+ls
+mkdir playground
+cd playground
+code .
+touch test.py
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+which python
+python -v
+python --version
+conda activate python-37
+conda env list
+conda activate python_37
+python --version
+conda activate flaskblog
+python --version
+git --version
+git config --global user.name "bylands"
+git config --global user.email "samuel@byland.name"
+pip install numpy
+python
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda list
+conda install pandas
+conda list
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda install --name playground autopep8 -y
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda install xlrd
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda install openpyxl
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+/Users/bylands/opt/anaconda3/envs/playground/bin/python
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+import numpy as np
+import pandas as pd
+classes = pd.read_excel('data/klassen_21-22.xlsx')
+classes = classes.drop(classes.index[-7:])
+classes = classes.drop(['Spalte1'], axis=1)
+classes['Imm'].fillna('nein', inplace=True)
+classes['Wechsel SPF'].fillna('', inplace=True)
+classes['Bemerkungen'].fillna('', inplace=True)
+classes['ZZ'].fillna('', inplace=True)
+print(classes)
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda install matplotlib
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+python test.py
+python
+nano hist.py
+python hist.py
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+usr/local/bin/python hist.py
+/usr/local/bin/python hist.py
+/usr/local/bin/python3 hist.py
+clear
+ls
+python hist.py
+nano hist.py
+python hist.py
+brew python
+brew install python
+conda activate playground
+cd OneDrive/Freizeit/Computer/Developper/playground
+ls
+python hist.py
+conda uninstall launcher
+conda install launcher
+which python
+conda activate base
+which python
+cd /Users/bylands/opt/anaconda3/bin
+ls
+cd ..
+ls
+find . -name Launcher.app
+find /usr/ -name "Launcher.app"
+cd /usr
+ls
+cd bin
+ls
+find . -name man
+find . -name mailq
+ls -l
+find . -name Launcher.app
+cd ..
+ls
+cd local
+ls
+find . -name Launcher.app
+cd /
+ls
+cd Applications
+ls
+find . -name Launcher.App
+Launcher
+Launcher.App
+Launcher.app
+open Launcher.app
+cd
+conda install -f launcher
+conda update anaconda3
+conda update anaconda
+conda install anaconda3
+ls
+pwd
+cd opt
+ls
+cd anaconda3
+ls
+open Launcher.app
+conda activate playground
+cd
+cd OneDrive/Freizeit/Computer/Developper/playground
+python hist.py
+conda activate base
+conda install anaconda-clean
+ls
+cd
+ls
+cd opt
+ls
+cd anaconda3
+la
+ls
+anaconda-clean -yes
+anconda-clean --yes
+anaconda-clean --yes
+cd
+cd opt
+ls
+cd anaconda3
+ls
+cd ..
+anaconda-clean --yes
+rm -rf anaconda3
+ls -a
+cd ..
+ls
+ls -a
+ls -a .a*
+rm -rf .anaconda_backup
+ls
+ls opt
+ls opt/anaconda3
+ls opt/anaconda3/bin
+conda --env list
+conda env list
+conda create --name playground
+conda update -n base -c defaults conda
+conda activate playground
+cd OneDrive/Freizeit/Computer/Developper/playground
+python hist.py
+conda list
+conda install matplotlib
+conda install numpy pandas
+python hist.py
+/usr/bin/python
+/usr/bin/python3 hist.py
+pip install matplotlib
+conda activate base
+pip install matplotlib
+/usr/bin/python3 hist.py
+conda install launcher
+py
+open Launcher.app
+cd /Applications/Python\ 3.9
+open Python\ Launcher.app
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate base
+/Users/bylands/opt/anaconda3/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+/Users/bylands/opt/anaconda3/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install pyqt
+conda install qtawesome
+conda install qtconsole -y
+conda list qt
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install -c anaconda pyqt
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/.vscode/extensions/ms-python.python-2021.6.944021595/pythonFiles/shell_exec.py /usr/local/bin/python3 -m pip install -U ipykernel --user /var/folders/zd/l7mhvtvd2kl599sl105gvq3h0000gn/T/tmp-33332GNkg7C0NlfQS.log
+conda list mat
+conda list num
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install python.app
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+alias cdpg="cd OneDrive/Freizeit/Computer/Developper/playground"
+cdpg
+find /Users/bylands/opt/anaconda3 -name "*matplotlib*"
+find /Users/bylands/opt/anaconda3 -name "*matplotlibrc*"
+cd /Users/bylands/opt/anaconda3/envs/playground/lib/python3.9/site-packages/matplotlib/mpl-data
+nano matplotlibrc
+cd
+ls -a
+cd .matplotlib
+ls
+ls -a
+nano /Users/bylands/opt/anaconda3/envs/playground/lib/python3.9/site-packages/matplotlib/mpl-data/matplotlibrc
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install cairo
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda list cairo
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install pycairo
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install PyGObject
+conda install pygobject
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install anaconda-clean
+anaconda-clean --yes
+cd /Users/bylands/opt/anaconda3
+ls
+cd ..
+ls
+rm -rf anaconda3
+ls
+cd
+ls .bash*
+nano .bash_profile
+rm .bash_profile
+ls .zsh*
+nano .zshrc
+code .zshrc
+ls
+source .zshrc
+ls
+pip list
+pip3 --version
+pip --version
+pip3 list
+brew install --cask anaconda
+code .zshrc
+source .zshrc
+conda init zsh
+conda init --help
+echo $PATH
+ls .bash*
+ls .config
+echo $PATH
+conda init zsh
+source .zshrc
+conda create --name playground matplotlib numpy pandas
+conda activate playground
+code .zshrc
+source .zshrc
+cdpg
+code .zshrc
+source .zshrc
+cdpg
+capg
+code .zshrc
+source .zshrc
+source ~/.zshrc
+capg
+which python
+source /usr/local/anaconda3/bin/activate
+conda activate playground
+/usr/local/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+conda install qt
+conda install qtawesome qtconsole -y
+conda list qt
+/usr/local/anaconda3/envs/playground/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+cd
+homebrew uninstall anaconda
+brew uninstall anaconda
+code .zshrc
+source .zshrc
+ls /usr/local
+pip --version
+pip3 --version
+cd /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/
+ls pip
+ls
+man ln
+echo $PATH
+find /usr/local -name pip3
+cd /usr/local/bin
+ls
+ls pi*
+ls -l pip*
+ln -s pip pip3
+ls -l pip*
+ln -s pip3 pip
+ls pi*
+pip --version
+pip list
+pip list venv
+pip install pipenv
+pipenv install
+ls
+pipenv --rm
+ls
+nano Pipfile
+rm Pipfile*
+ls
+cdpg
+pipenv install
+ls
+pipenv shell
+pipenv install matplotlib
+pipenv list
+pipenv -h
+pipenv graph
+pipenv scripts
+pip list
+pipenv check
+pipenv install pandas
+pip list
+deactivate
+exit
+pip list
+ls
+nano Pipfile
+nano Pipfile.lock
+source /Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/activate
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+cdpg
+pipenv shell
+atom .
+deactivate
+exit
+pip list
+pip install numpy pandas matplotlib
+brew uninstall zsh
+brew uninstall oh-my-zsh
+uninstall_oh_my_zsh
+restart
+exit
+cd
+ls
+source .zshrc
+ls .zsh*
+rm .zshrc
+mv .zshrc.omz-uninstalled-2021-07-11_14-09-45 .zshrc
+source .zshrc
+ls
+cdpg
+cd
+ls .config
+which python3
+ls /Library/Frameworks/Python.framework/Versions/3.9
+ls /Library/Frameworks/Python.framework/Versions/3.9/include
+ls /Library/Frameworks/Python.framework/Versions/3.9/bin
+ls /Library/Frameworks/Python.framework/Versions/3.9/lib
+find /Library/Frameworks/Python.framework -name "*matplotlibrc"
+cp /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/matplotlib/mpl-data/matplotlibrc .config
+ls .config
+code .config/matplotlibrc
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+cd
+source .config/matplotlibrc
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+pip3 install matplotlib
+cdpg
+python3 hist.py
+python -m pip install -U pip
+python -m pip3 install -U matplotlib
+python3 -m pip install -U matplotlib
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+exit
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/opt/anaconda3/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/basic_plot.py
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name *.py
+cdpg
+cd ..
+ls
+find . -name *.py
+find . name "*.py"
+man find
+which find
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name "*.py"
+ls
+cd
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name "*.py"
+cdpg
+ls
+cd ..
+ls
+find test-project -name "*.py"
+find Python\ Projects -name "*.py"
+find Hello -name "*.py"
+find DPK\ App -name "*.py"
+ls DPK\ App
+ls DPK\ App/DPK
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+pip install openpyxl
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+which python
+which python3
+cd /Library/Frameworks/Python.framework
+ls
+cd Python
+ls -l
+cd Versions
+ls
+cd Current
+ls
+conda update anaconda
+conda list open
+conda list spyder
+conda update spyder
+conda list spy
+conda update spyder
+cdpg
+conda create -n playground matplotlib numpy pandas
+capg
+conda deactivate
+capg
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/.vscode/extensions/ms-python.python-2021.6.944021595/pythonFiles/shell_exec.py conda install --name playground ipykernel -y /var/folders/zd/l7mhvtvd2kl599sl105gvq3h0000gn/T/tmp-63591OGcGsyqgCau3.log
+conda install ipympl
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+ls
+ls -a
+nano .DS_Store
+git config --global user.email "17637688+bylands@users.noreply.github.com"
+git config --global user.email
+ssh bylandn@byland.name
+ssh-keygen -t rsa -b 4096
+cd .ssh
+ls -la
+scp ~/.ssh/id_rsa.pub bylandn@byland.name:/home/bylandn/.ss/uploaded_key.pub
+scp ~/.ssh/id_rsa.pub bylandn@byland.name:/home/bylandn/.ssh/uploaded_key.pub
+ssh bylandn@byland.name
+ls
+cat config
+ssh byland.name
+ls
+ssh byland.name
+uninstall_oh_my_zsh
+echo $SHELL
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano colors.sh
+colors.sh
+zsh colors.sh
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+cd OneDrive
+nano .zshrc
+cd
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano .condarc
+source .condarc
+nano .condarc
+source .zshrc
+conda config --system --set env_prompt "\n({default_env}) "
+nano .condarc
+source .zshrc
+ls
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+echo $SHELL
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+/Users/bylands/opt/anaconda3/envs/physics/bin/python /Users/bylands/.vscode/extensions/ms-python.python-2021.6.944021595/pythonFiles/shell_exec.py conda install --name physics ipykernel -y /var/folders/zd/l7mhvtvd2kl599sl105gvq3h0000gn/T/tmp-8671oTRy6ZZ8Uoz5.log
+cd
+code .zshrc
+ls
+source .zshrc
+ls
+source .zshrc
+ls
+source .zshrc
+week
+week
+sudo softwareupdate -i -a
+softwareupdate -h
+softwareupdate -l
+brew update
+brew outdated
+brew upgrade --all
+brew upgrade
+brew cleanup
+source .zshrc
+ip
+localip
+ips
+sniff
+source .zshrc
+sniff
+source .zshrc
+sniff
+sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'
+ngrep
+brew ngrep
+brew search ngrep
+brew install ngrep
+sniff
+show
+hide
+hidedesktop
+showdesktop
+cdpg
+..
+cd dotfiles
+..
+nano dotfiles/README.md
+mv dotfiles dotfiles_mathiasbynens
+mkdir dotfiles_coreyschafer
+cd dotfiles_coreyschafer
+git clone https://github.com/CoreyMSchafer/dotfiles.git
+git status
+git remote
+ls
+cd dotfiles
+ls
+ls -a
+cd ..
+mv dotfiles ../dotfiles
+ls
+cd ..
+ls
+rm dotfiles_coreyschafer
+rm -rf dotfiles_coreyschafer
+ls
+mv dotfiles dotfiles_coreyschafer
+ls
+cd dotfiles_coreyschafer
+git status
+ls
+cd settings
+ls
+cd ..
+nano install.sh
+ls -a
+code .aliases
+history
+history | grep "git commit"
+cd
+source .zshrc

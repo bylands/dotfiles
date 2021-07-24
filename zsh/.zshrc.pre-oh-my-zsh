@@ -1,0 +1,85 @@
+# Set prompt
+NEWLINE=$'\n'
+
+autoload -Uz vcs_info
+autoload -Uz compinit && compinit
+
+zstyle ':vcs_info:*' enable git
+setopt prompt_subst
+
+add-zsh-hook precmd vcs_info
+zstyle ':vcs_info:*' unstagedstr '*'
+zstyle ':vcs_info:*' stagedstr '+'
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:git:*' formats    ' on %F{blue}%b%f %F{red}[%u%c]%f'
+zstyle ':vcs_info:git:*' actionformats    ' on %F{blue}%b%f %F{red}[%a|%u%c]%f'
+
+
+PROMPT='%F{166}%n%f' # user
+PROMPT+=' in '
+PROMPT+='%F{green}%1~%f' # current directory
+PROMPT+='${vcs_info_msg_0_}' #git info
+PROMPT+=' ${NEWLINE}%# '
+
+
+# Aliases
+# For a full list of active aliases, run `alias`.
+
+alias ls="ls -G"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias base="conda deactivate"
+
+alias cdpg="cd ~/OneDrive/Freizeit/Computer/Developper/playground"
+alias capg="conda activate playground"
+alias caph="conda activate physics"
+
+alias pg="cdpg;capg"
+alias physics="cd ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks;caph"
+
+alias hostpoint="ssh bylandn@byland.name"
+
+alias sudo='sudo '
+
+# Get week number
+alias week='date +%V'
+
+# Get OS X Software Updates, Homebrew, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Empty the Trash on all mounted volumes and the main HDD.
+# Also, clear Apple’s System Logs to improve shell startup speed.
+# Finally, clear download history from quarantine. https://mths.be/bum
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/bylands/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/bylands/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/bylands/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/bylands/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+

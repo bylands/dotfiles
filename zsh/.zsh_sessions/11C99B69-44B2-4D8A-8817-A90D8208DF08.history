@@ -1,0 +1,1001 @@
+ls .zsh*
+rm .zshrc
+mv .zshrc.omz-uninstalled-2021-07-11_14-09-45 .zshrc
+source .zshrc
+ls
+cdpg
+cd
+ls .config
+which python3
+ls /Library/Frameworks/Python.framework/Versions/3.9
+ls /Library/Frameworks/Python.framework/Versions/3.9/include
+ls /Library/Frameworks/Python.framework/Versions/3.9/bin
+ls /Library/Frameworks/Python.framework/Versions/3.9/lib
+find /Library/Frameworks/Python.framework -name "*matplotlibrc"
+cp /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/matplotlib/mpl-data/matplotlibrc .config
+ls .config
+code .config/matplotlibrc
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+cd
+source .config/matplotlibrc
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+pip3 install matplotlib
+cdpg
+python3 hist.py
+python -m pip install -U pip
+python -m pip3 install -U matplotlib
+python3 -m pip install -U matplotlib
+/Users/bylands/.local/share/virtualenvs/playground-HfGSiOw2/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+exit
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/opt/anaconda3/bin/python /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/basic_plot.py
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name *.py
+cdpg
+cd ..
+ls
+find . -name *.py
+find . name "*.py"
+man find
+which find
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name "*.py"
+ls
+cd
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+find . -name "*.py"
+cdpg
+ls
+cd ..
+ls
+find test-project -name "*.py"
+find Python\ Projects -name "*.py"
+find Hello -name "*.py"
+find DPK\ App -name "*.py"
+ls DPK\ App
+ls DPK\ App/DPK
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/hist.py
+pip install openpyxl
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+which python
+which python3
+cd /Library/Frameworks/Python.framework
+ls
+cd Python
+ls -l
+cd Versions
+ls
+cd Current
+ls
+conda update anaconda
+conda list open
+conda list spyder
+conda update spyder
+conda list spy
+conda update spyder
+cdpg
+conda create -n playground matplotlib numpy pandas
+capg
+conda deactivate
+capg
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate playground
+/Users/bylands/opt/anaconda3/envs/playground/bin/python /Users/bylands/.vscode/extensions/ms-python.python-2021.6.944021595/pythonFiles/shell_exec.py conda install --name playground ipykernel -y /var/folders/zd/l7mhvtvd2kl599sl105gvq3h0000gn/T/tmp-63591OGcGsyqgCau3.log
+conda install ipympl
+/usr/local/bin/python3 /Users/bylands/OneDrive/Freizeit/Computer/Developper/playground/test.py
+ls
+ls -a
+nano .DS_Store
+git config --global user.email "17637688+bylands@users.noreply.github.com"
+git config --global user.email
+ssh bylandn@byland.name
+ssh-keygen -t rsa -b 4096
+cd .ssh
+ls -la
+scp ~/.ssh/id_rsa.pub bylandn@byland.name:/home/bylandn/.ss/uploaded_key.pub
+scp ~/.ssh/id_rsa.pub bylandn@byland.name:/home/bylandn/.ssh/uploaded_key.pub
+ssh bylandn@byland.name
+ls
+cat config
+ssh byland.name
+ls
+ssh byland.name
+uninstall_oh_my_zsh
+echo $SHELL
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano colors.sh
+colors.sh
+zsh colors.sh
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+cd OneDrive
+nano .zshrc
+cd
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano .zshrc
+source .zshrc
+nano .condarc
+source .condarc
+nano .condarc
+source .zshrc
+conda config --system --set env_prompt "\n({default_env}) "
+nano .condarc
+source .zshrc
+ls
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+echo $SHELL
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+/Users/bylands/opt/anaconda3/envs/physics/bin/python /Users/bylands/.vscode/extensions/ms-python.python-2021.6.944021595/pythonFiles/shell_exec.py conda install --name physics ipykernel -y /var/folders/zd/l7mhvtvd2kl599sl105gvq3h0000gn/T/tmp-8671oTRy6ZZ8Uoz5.log
+cd
+code .zshrc
+ls
+source .zshrc
+ls
+source .zshrc
+ls
+source .zshrc
+week
+week
+sudo softwareupdate -i -a
+softwareupdate -h
+softwareupdate -l
+brew update
+brew outdated
+brew upgrade --all
+brew upgrade
+brew cleanup
+source .zshrc
+ip
+localip
+ips
+sniff
+source .zshrc
+sniff
+source .zshrc
+sniff
+sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'
+ngrep
+brew ngrep
+brew search ngrep
+brew install ngrep
+sniff
+show
+hide
+hidedesktop
+showdesktop
+cdpg
+..
+cd dotfiles
+..
+nano dotfiles/README.md
+mv dotfiles dotfiles_mathiasbynens
+mkdir dotfiles_coreyschafer
+cd dotfiles_coreyschafer
+git clone https://github.com/CoreyMSchafer/dotfiles.git
+git status
+git remote
+ls
+cd dotfiles
+ls
+ls -a
+cd ..
+mv dotfiles ../dotfiles
+ls
+cd ..
+ls
+rm dotfiles_coreyschafer
+rm -rf dotfiles_coreyschafer
+ls
+mv dotfiles dotfiles_coreyschafer
+ls
+cd dotfiles_coreyschafer
+git status
+ls
+cd settings
+ls
+cd ..
+nano install.sh
+ls -a
+code .aliases
+history
+history | grep "git commit"
+cd
+source .zshrc
+/usr/local/bin/python3 "/Users/bylands/OneDrive - SekII Zürich/MNG Unterlagen/24_Notebooks/salt_crystal/salt_crystal_2d.py"
+/Users/bylands/opt/anaconda3/envs/physics/bin/python "/Users/bylands/OneDrive - SekII Zürich/MNG Unterlagen/24_Notebooks/salt_crystal/salt_crystal_2d.py"
+/Users/bylands/opt/anaconda3/envs/physics/bin/python "/Users/bylands/OneDrive - SekII Zürich/MNG Unterlagen/24_Notebooks/salt_crystal/salt_crystal_2d.py"
+/Users/bylands/opt/anaconda3/envs/physics/bin/python "/Users/bylands/OneDrive - SekII Zürich/MNG Unterlagen/24_Notebooks/salt_crystal/salt_crystal_2d.py"
+/Users/bylands/opt/anaconda3/envs/physics/bin/python "/Users/bylands/OneDrive - SekII Zürich/MNG Unterlagen/24_Notebooks/salt_crystal/salt_crystal_2d.py"
+/Users/bylands/opt/anaconda3/envs/physics/bin/python
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+echo $SHELL
+cd
+source .zshrc
+physics
+git status
+git add -A
+git commit
+git status
+git status
+git add salt_crystal/salt_crystal_3d.ipynb
+git status
+git restore --staged salt_crystal/salt_crystal_3d.ipynb
+git status
+ls -a
+cd
+ls -a
+nano .zshrc.omz-uninstalled-2021-07-17_15-57-47
+code .zshrc
+source .zshrc
+physics
+code .zshrc.pre-oh-my-zsh
+show
+source .zshrc
+physics
+conda init zsh
+source .zshrc
+cd
+source .zshrc
+physics
+ls
+git status
+code .
+cd
+ln -s notebooks OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks
+ls -l
+physics
+ls
+ls notebooks
+ls -l
+rm notebooks
+man ln
+cd
+ln -s OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks notebooks
+ls
+ls -l
+cd notebooks
+code .
+source /Users/bylands/opt/anaconda3/bin/activate
+conda activate physics
+cd
+code .zshrc
+ls -a
+code .oh-my-zsh
+physics
+git status
+git add -A
+git status
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+code .zshrc.pre-oh-my-zsh
+source .zshrc
+code .zshrc
+source ~/.zshrc
+physics
+source ~/.zshrc
+code ~/.oh-my-zsh/themes/apple.zsh-theme
+nano .zshrc
+nano ~/.zshrc
+source ~/.zshrc
+nano .zshrc
+nano ~/.zshrc
+source ~/.zshrc
+cd
+physics
+git status
+git restore salt_crystal/salt_crystal_3d.ipynb
+git status
+git restore --staged salt_crystal/salt_crystal_3d.ipynb
+git status
+source ~/.zshrc
+code ~/.zshrc.pre-oh-my-zsh
+source ~/.zshrc
+ls
+cd
+physics
+git status
+source ~/.zshrc
+git add salt_crystal/salt_crystal_3d.ipynb
+touch test.py
+git status
+rm test.py
+touch test.py
+git add test.py
+echo "first line" >> test.py
+git status
+git rm test.py
+git rm -f test.py
+git status
+physics
+cd
+cd .oh-my-zsh
+git status
+git add -A
+git remote
+git remote -v
+git fetch
+physics
+source ~/.zshrc
+git status
+git restore --staged salt_crystal/salt_crystal_3d.ipynb
+source ~/.zshrc
+git add salt_crystal/salt_crystal_3d.ipynb
+git restore --staged salt_crystal/salt_crystal_3d.ipynb
+source ~/.zshrc
+git add salt_crystal/salt_crystal_3d.ipynb
+source ~/.zshrc
+cd
+code .aliases
+source .zshrc
+physics
+ls
+mv ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks/* .
+ls
+ls -a
+ls -a ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks/*
+ls -a ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks
+mv ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks/.git .
+ls -a
+source ~/.zshrc
+la
+source ~/.zshrc
+la
+ll
+ll -a
+la
+source ~/.zshrc
+la
+ll
+la
+man ln
+ln -s ../Physics ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/24_Notebooks
+show
+hide
+code .
+la
+code .gitignore
+physics
+.zshrc
+source ~/.zshrc
+physics
+cd
+physics
+nano ~/.aliases
+~/.zshrc
+physics
+nano ~/.aliases
+nano ~/.zshrc
+source ~/.aliases
+physics
+cd
+physics
+source ~/.zshrc
+physics
+cd
+physics
+base
+caph
+physics
+nano ~/.alia
+nano ~/.aliases
+source ~/.zshrc
+cd
+vsph
+physics
+xit
+exit
+ls
+ls -G
+nano .condarc
+nano .zshrc
+source .zshrc
+ls
+..
+cd
+...
+cd
+cd OneDrive
+....
+cd
+cdpg
+capg
+conda deactivate
+code .zshrc
+cd
+code .zshrc
+source .zshrc
+capg
+base
+alias
+whence
+whence -help
+whence -h
+whence --help
+man whence
+ssh byland.name
+source .zshrc
+hostpoint
+cdpg
+cd
+source .zshrc
+capg
+cdpg
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+cd
+cd ..
+source ~/.zshrc
+source ~/.zshrc
+cdpg
+cd
+cdpg
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+source ~/.zshrc
+cd
+cdpg
+pg
+source ~/.zshrc
+pg
+touch gittest
+ls
+source ~/.zshrc
+git list
+git --help
+git show
+git --help
+git status
+git add gittest
+ls
+git status
+git commit
+git status
+git push
+git stage test.py
+git stage .gitignore
+git status
+rm gittest
+git status
+git commit
+git status
+git rm gittest
+git commit
+cd
+pg
+base
+cd
+cd OneDrive\ -\ SekII\ Zürich
+ls
+cd MNG\ Unterlagen
+ls
+ls 99_Programme
+cd 11_Elektrostatik
+ls
+mkdir Notebooks
+cd Notebooks
+conda create --name physics
+conda activate physics
+cd
+code .zshrc
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen/11_Elektrostatik/Notebooks
+pwd
+cd
+base
+home
+electro
+source .zshrc
+electro
+base
+source .zshrc
+electro
+base
+source .zshrc
+electro
+cd
+source .zshrc
+electro
+ls
+git init
+..
+mv Notebooks ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+....
+cd OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen
+ls
+mv Notebooks 24_Notebooks
+ls
+cd 24_Notebooks
+ls
+ls -a
+base
+cd
+source .zshrc
+physics
+ls
+base
+source .zshrc
+physics
+ls
+cd
+source .zshrc
+physics
+git remote add origin https://github.com/bylands/physics.git
+git pull
+git push
+ls
+git pull origin master
+git pull origin
+git status
+git remote
+code .
+which python
+which python3
+ls /usr/bin/py*
+ls -l /usr/bin/py*
+capg
+which python
+cd /Users/bylands/opt/anaconda3/envs
+ls
+cd physics
+ls
+physics
+conda install python
+which python
+ls
+ls
+git
+git status
+git add salt_crystal_2d.ipynb salt_crystal_3d.ipynb
+git commit -m "Initial commit"
+git status
+git push
+git push --set-upstream origin master
+git push --set-upstream origin main
+git status
+git remote rm origin
+git status
+git remote
+git remote -v
+git push origin main
+git remote
+git remote add https://github.com/bylands/physics.git
+git remote add physics https://github.com/bylands/physics.git
+git remote -v
+git fetch physics
+git push origin master
+git push physics master
+git status
+ls
+git pull physics
+git pull physics main
+git config
+git config --list
+git config --global core.editor code
+git status
+ls
+ls
+git status
+git add .
+git status
+git commit
+git status
+git commit
+git config --global core.editor nano
+git commmit
+git commit
+git status
+git status -s
+which python
+code .
+conda install matplotlib
+touch README.md
+git status -s
+git add README.md
+git status -s
+code README.md
+git status -s
+git status
+git diff
+git add README.md
+git diff
+nano README.md
+git diff
+git diff --staged
+code README.md
+git add .
+git status
+git commit -m 'Add README'
+git status
+git difftool --tool-help
+git history
+touch temp.md
+git status
+git add temp.md
+git commit -m 'Add temporary file'
+git status
+git rm temp.md
+ls
+git status
+git commit
+git status
+git log
+git log -p
+git log --stat
+git log --pretty
+git log --graph
+touch temp.md
+git status
+git add temp.md
+git status
+git restore --staged temp.md
+git status
+git rm temp.md
+rm temp.md
+git status
+git remote
+git remote -v
+git fetch physics
+git status
+ls
+git fetch physics
+git push physics main
+git pull --rebase physics main
+git status
+nano README.md
+git status
+git add README.md
+git status
+git rebase --continue
+git status
+ls
+git remote -v
+git push physics main
+git remote rm physics
+git remote
+git remote add physics https://github.com/bylands/physics.git
+git remote -v
+git push -u physics main
+git branch -M main
+git status
+git push -u physics main
+git remote show physics
+git tag
+mkdir salt_crystal
+git mv salt_crystal_* salt_crystal/
+l
+ls
+ls salt_crystal
+git status
+git commit -m "Change directory structure"
+git status
+git push physics
+tree
+brew install tree
+tree
+git branch salt_crystal
+git log
+git checkout salt_crystal
+git log
+touch test.md
+git commit -a -m 'made a change'
+git add test.md
+git commit -a -m 'made a change'
+git status
+ls
+git checkout main
+ls
+git checkout salt_crystal
+git checkout main
+git log
+git log salt_crystal
+git log salt_crystal --
+git checkout salt_crystal
+echo 'first line' >> test.md
+nano test.md
+git checkout main
+git commit -m 'modify test'
+git commit -a -m 'modify test'
+git checkout main
+nano test.md
+git status
+git add test.md
+git commit -m 'add test.md'
+cat test.md
+git checkout salt_crystal
+cat test.md
+git log --oneline --decorate --graph --all
+git --version
+git switch -
+git push
+git switch -
+git switch -c test
+touch test.py
+echo 'print('Hello World!') >> test.py\
+q
+ls
+nano test.py
+cat test.py
+git add test.py
+git commit -m 'add test code'
+git switch -
+git switch main
+git merge test
+git switch -
+git status
+nano test.md
+git status
+git add test.md
+git status
+git commit -m 'merge test into main'
+git switch -
+git status
+git merge test
+git status
+ls
+cat test.py
+cat test.md
+git switch -
+cat test.md
+git switch test
+cat test.md
+git switch main
+git branch -d test
+git switch salt_crystal
+nano test.py
+git commit -a -m 'add addition'
+git switch -
+git merge salt_crystal
+cat test.py
+cat test.md
+git switch -
+cat test.md
+git switch -
+git status
+git push
+git branch -d salt_crystal
+git branch
+git branch crystal
+git branch
+git branch -v
+git branch --merged
+git switch -
+git switch sc
+git switch crystal
+git push
+git remote
+git push physics
+git push --set-upstream physis crystal
+git push --set-upstream physics crystal
+git rm test.*
+git commit 'clean directory'
+git commit -m 'clean directory'
+git status
+git push
+git switch -
+git merge crystal
+git push
+git log
+git branch --all
+git switch -
+git remote fetch
+git fetch physics
+code README.md
+git status
+cat README.md
+git pull
+git fetch physics
+git switch -
+git pull
+git merge crystal
+code README.md
+git add README.md
+git status
+git commit -m 'merge with crystal'
+git push
+git fetch
+git switch -c trajectory physics/trajectory
+git status
+cat README.md
+git status
+git remote -v
+git switch main
+cat README.md
+git switch -
+ls
+cat README.md
+git pull
+git fetch
+cat README.md
+git push
+git switch main
+git pull
+cat README.md
+git branch -d trajectory
+git branch --all
+git fetch
+git branch --all
+git fetch
+git branch --all
+git switch -
+git switch crystal
+git branch --all
+cdpg
+..
+mkdir Dotfiles
+ls
+ls -a
+cd dotfiles
+ls
+cat README.md
+open README.md
+code README.md
+cd
+code .zshrc
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+touch test.py
+ls
+git status
+cd
+source .zshrc
+physics
+git status
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+git add test.py
+cd
+source .zshrc
+physics
+touch temp.md
+git status
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+echo "line" >> test.py
+cd
+source .zshrc
+physics
+cd
+source .zshrc
+physics
+git rm test.py
+ls
+git rm temp.md
+rm temp.md
+git rm -f test.py
+git status
+cd
+cdpg
+..
+cd dotfiles
+ls
+ls -a
+git fetch
+git status
+code .aliases
+physics
+history | grep "git commit"
+history
+history | grep "git status"
+history | grep
+cdpg
+..
+ls
+cd dotfiles_coreyschafer
+ls
+ls -a
+cd ..
+rm -rf dotfiles_coreyschafer
+mv dotfiles_mathiasbynens dotfiles
+ls
+physics
+git branch -vv
+git branch --all
+git fetch
+git fetch --all
+git branch -vv
+git branch
+git branch --all
+git push physics --delete trajectory
+git branch --all
+ls
+cd salt_crystal
+cd ..
+code salt_crystal
+git status
+git status
+git commit -a -m 'Update 2d crystal'
+git push
+git branch --all
+git status
+conda install ipywidgets
+git commit -a -m 'clear output cells'
+git push
+ls
+ls salt_crystal
+git status
+git add salt_crystal/
+git status
+git push
+git switch main
+git merge crystal
+git status
+git push
+nano README.md
+git config --global e
+git config
+git config -l
+git config --global core.editor 'code -w'
+git config -l
+touch test.py
+git add test.py
+git commit
+git reset -h
+git --help restore
+git --help reset
+git log
+git reset 9c9c192e59ca3e3eff34ef23117eafabb3b4286e
+ls
+git status
+rm test.py
+git status
+git log
+git log --graph
+git branch -a
+git push --delete physics trajectory
+git branch -vv
+git fetch -p
+git branch -v
+git branch -a
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+exit

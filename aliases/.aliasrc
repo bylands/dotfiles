@@ -1,0 +1,57 @@
+# basic navigation
+alias ls="ls -G"
+alias la="ls -la"
+alias ll="ls -l"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# environments
+alias base="conda deactivate"
+
+alias cdpg="cd ~/OneDrive/Freizeit/Computer/Developper/playground"
+alias capg="conda activate playground"
+alias caph="conda activate physics"
+
+alias pg="cdpg;capg"
+alias physics="cd ~/OneDrive/Freizeit/Computer/Developper/Physics;caph"
+
+alias vsph="physics;code ."
+
+# Cheat Sheets
+alias csgit="open ~/OneDrive/Freizeit/Computer/Developper/cheatsheets/git-cheatsheet.pdf"
+alias cspd="open ~/OneDrive/Freizeit/Computer/Developper/cheatsheets/pandas-cheatsheet.pdf"
+alias csvs="open ~/OneDrive/Freizeit/Computer/Developper/cheatsheets/vscode-cheatsheet.pdf"
+alias csplt="open ~/OneDrive/Freizeit/Computer/Developper/cheatsheets/matplotlib-cheatsheet.pdf"
+alias csnp="open ~/OneDrive/Freizeit/Computer/Developper/cheatsheets/numpy-cheatsheet.pdf"
+
+# SSH Logins
+alias hostpoint="ssh bylandn@byland.name"
+
+# sudo for alias
+alias sudo='sudo '
+
+# Get week number
+alias week='date +%V'
+
+# Get OS X Software Updates, Homebrew, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup'
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Empty the Trash on all mounted volumes and the main HDD.
+# Also, clear Apple’s System Logs to improve shell startup speed.
+# Finally, clear download history from quarantine. https://mths.be/bum
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
