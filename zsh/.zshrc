@@ -1,20 +1,68 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Enable colors and change prompt:
+autoload -U colors && colors
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/bylands/.dotfiles/zsh/.oh-my-zsh"
+# History in cache directory:
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.cache/zsh/history
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="apple_modified"
+# When I type a directory path, just cd to it.
+setopt auto_cd
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# Show time taken for the command to finish, if it takes longer than this many seconds.
+REPORTTIME=6
+
+# Basic auto/tab complete:
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+# vi mode
+# bindkey -v
+# export KEYTIMEOUT=1
+
+# Use vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -v '^?' backward-delete-char
+
+# Activate plugins
+source /opt/homebrew/share/antigen/antigen.zsh
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle common-aliases
+antigen bundle command-not-found
+antigen bundle colored-man-pages
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle MichaelAquilina/zsh-you-should-use
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen apply
+
+# Change cursor shape for different vi modes.
+# function zle-keymap-select {
+#   if [[ ${KEYMAP} == vicmd ]] ||
+#      [[ $1 = 'block' ]]; then
+#     echo -ne '\e[1 q'
+#   elif [[ ${KEYMAP} == main ]] ||
+#        [[ ${KEYMAP} == viins ]] ||
+#        [[ ${KEYMAP} = '' ]] ||
+#        [[ $1 = 'beam' ]]; then
+#     echo -ne '\e[5 q'
+#   fi
+# }
+# zle -N zle-keymap-select
+# zle-line-init() {
+#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+#     echo -ne "\e[5 q"
+# }
+# zle -N zle-line-init
+# echo -ne '\e[5 q' # Use beam shape cursor on startup.
+# preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -62,18 +110,6 @@ ZSH_THEME="apple_modified"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -113,3 +149,35 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Prompt settings
+
+NEWLINE=$'\n'
+
+get_git_dirty() {
+  git diff --quiet || echo '*'
+}
+
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' unstagedstr '%F{red}*%f'   # display this when there are unstaged changes
+zstyle ':vcs_info:*' stagedstr '+'  # display this when there are staged changes
+zstyle ':vcs_info:*' actionformats \
+    'on %F{69}%b|%a%c%u'
+zstyle ':vcs_info:*' formats       \
+    'on %F{69}%b %c%u'
+zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
+zstyle ':vcs_info:*' enable git cvs svn
+
+theme_precmd () {
+    vcs_info
+}
+
+setopt prompt_subst
+PROMPT='%F{166}%n%f in %F{green}%1~ %f${vcs_info_msg_0_}%{$reset_color%}'
+PROMPT+=' ${NEWLINE}%# '
+
+autoload -U add-zsh-hook
+add-zsh-hook precmd theme_precmd
+
+# Load zsh-syntax-highlighting; should be last.
+# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

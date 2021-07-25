@@ -1,11 +1,11 @@
 # basic navigation
-alias ls="ls -G"
-alias la="ls -la"
-alias ll="ls -l"
+# alias ls="ls -G"
+# alias la="ls -la"
+# alias ll="ls -l"
 
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
+# alias ...="cd ../.."
+# alias ..="cd .."
+# alias ....="cd ../../.."
 
 # environments
 alias base="conda deactivate"
