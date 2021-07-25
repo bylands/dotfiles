@@ -31,7 +31,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 # Activate plugins
-source /opt/homebrew/share/antigen/antigen.zsh
+source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle git
 antigen bundle common-aliases
@@ -178,6 +178,8 @@ PROMPT+=' ${NEWLINE}%# '
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
+
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # Load zsh-syntax-highlighting; should be last.
 # source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
