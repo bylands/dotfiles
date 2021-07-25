@@ -173,11 +173,13 @@ theme_precmd () {
 }
 
 setopt prompt_subst
-PROMPT='%F{166}%n%f in %F{green}%1~ %f${vcs_info_msg_0_}%{$reset_color%}'
+PROMPT='${NEWLINE}%#%F{166}%n%f in %F{green}%1~ %f${vcs_info_msg_0_}%{$reset_color%}'
 PROMPT+=' ${NEWLINE}%# '
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
+
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # Load zsh-syntax-highlighting; should be last.
 # source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
