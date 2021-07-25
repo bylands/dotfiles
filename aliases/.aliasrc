@@ -7,6 +7,10 @@
 # alias ..="cd .."
 # alias ....="cd ../../.."
 
+# zsh management
+alias zrc="code ~/.zshrc"
+alias sz="source ~/.zshrc"
+
 # environments
 alias base="conda deactivate"
 

@@ -31,7 +31,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 # Activate plugins
-source source /usr/local/share/antigen/antigen.zsh
+source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle git
 antigen bundle common-aliases
@@ -173,7 +173,7 @@ theme_precmd () {
 }
 
 setopt prompt_subst
-PROMPT='%F{166}%n%f in %F{green}%1~ %f${vcs_info_msg_0_}%{$reset_color%}'
+PROMPT='${NEWLINE}%F{166}%n%f in %F{green}%1~ %f${vcs_info_msg_0_}%{$reset_color%}'
 PROMPT+=' ${NEWLINE}%# '
 
 autoload -U add-zsh-hook
