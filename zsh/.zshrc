@@ -31,7 +31,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 # Activate plugins
-source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+source source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle git
 antigen bundle common-aliases
