@@ -7,6 +7,8 @@
 # alias ..="cd .."
 # alias ....="cd ../../.."
 
+alias dev="cd ~/OneDrive/Freizeit/Computer/Developper"
+
 # zsh management
 alias zrc="code ~/.zshrc"
 alias sz="source ~/.zshrc"
