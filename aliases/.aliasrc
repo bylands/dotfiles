@@ -7,7 +7,11 @@
 # alias ..="cd .."
 # alias ....="cd ../../.."
 
+# main directories
 alias dev="cd ~/OneDrive/Freizeit/Computer/Developper"
+alias mng="cd ~/OneDrive\ -\ SekII\ Zürich/"
+alias sl="cd ~/OneDrive\ -\ SekII\ Zürich/Schulleitung"
+alias unt="cd ~/OneDrive\ -\ SekII\ Zürich/MNG\ Unterlagen"
 
 # zsh management
 alias zrc="code ~/.zshrc"
